@@ -1,0 +1,17 @@
+OpenJDK 64-Bit Server VM warning: Ignoring option PermSize; support was removed in 8.0
+log4j:WARN No appenders could be found for logger (com.alibaba.dubbo.common.logger.LoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by javassist.ClassPool (file:/apps/dubbo-demo-provider-2.1.5/lib/javassist-3.15.0-GA.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+WARNING: Please consider reporting this to the maintainers of javassist.ClassPool
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[0.633s][warning][exceptions] Class com.alibaba.dubbo.rpc.Invoker in throws clause of method com.alibaba.dubbo.rpc.Exporter com.alibaba.dubbo.rpc.Protocol_Adpative.export(com.alibaba.dubbo.rpc.Invoker) is not a subtype of class java.lang.Throwable
+[0.633s][warning][exceptions] Class java.lang.Class in throws clause of method com.alibaba.dubbo.rpc.Invoker com.alibaba.dubbo.rpc.Protocol_Adpative.refer(java.lang.Class, com.alibaba.dubbo.common.URL) is not a subtype of class java.lang.Throwable
+[0.652s][warning][exceptions] Class com.alibaba.dubbo.rpc.Invoker in throws clause of method java.lang.Object com.alibaba.dubbo.rpc.ProxyFactory_Adpative.getProxy(com.alibaba.dubbo.rpc.Invoker) is not a subtype of class java.lang.Throwable
+[0.652s][warning][exceptions] Class java.lang.Object in throws clause of method com.alibaba.dubbo.rpc.Invoker com.alibaba.dubbo.rpc.ProxyFactory_Adpative.getInvoker(java.lang.Object, java.lang.Class, com.alibaba.dubbo.common.URL) is not a subtype of class java.lang.Throwable
+[0.772s][warning][exceptions] Class com.alibaba.dubbo.rpc.cluster.Directory in throws clause of method com.alibaba.dubbo.rpc.Invoker com.alibaba.dubbo.rpc.cluster.Cluster_Adpative.join(com.alibaba.dubbo.rpc.cluster.Directory) is not a subtype of class java.lang.Throwable
+[0.817s][warning][exceptions] Class com.alibaba.dubbo.common.URL in throws clause of method com.alibaba.dubbo.remoting.Server com.alibaba.dubbo.remoting.Transporter_Adpative.bind(com.alibaba.dubbo.common.URL, com.alibaba.dubbo.remoting.ChannelHandler) is not a subtype of class java.lang.Throwable
+[0.817s][warning][exceptions] Class com.alibaba.dubbo.common.URL in throws clause of method com.alibaba.dubbo.remoting.Client com.alibaba.dubbo.remoting.Transporter_Adpative.connect(com.alibaba.dubbo.common.URL, com.alibaba.dubbo.remoting.ChannelHandler) is not a subtype of class java.lang.Throwable
+[2024-01-11 08:27:23] Dubbo service server started!
